@@ -12,6 +12,6 @@ pub trait Get {
             None =>  println!("Item: {} was not found", title)
         }
 
-        println!("{} is being fetched", title);
+        println!("{} is being fetched\n\n", title);
     }
 }

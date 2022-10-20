@@ -2,6 +2,7 @@ use super::base::Base;
 use super::traits::get::Get;
 use super::traits::edit::Edit;
 use super::traits::delete::Delete;
+use super::traits::create::Create;
 
 pub struct Done{
     pub super_struct: Base
@@ -16,3 +17,4 @@ impl Done {
 impl Get for Done {}
 impl Delete for Done {}
 impl Edit for Done {}
+impl Create for Done {}
